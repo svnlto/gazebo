@@ -1,0 +1,26 @@
+{
+  "name": "gazebo",
+  "version": "0.1.0",
+  "authors": "Sven Lito <me@svenlito.com>",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "dependencies": {
+    "express": "2.5.x",
+    "connect": "~2.4.3",
+    "underscore": "~1.3.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.3.2",
+    "grunt-requirejs": "~0.2.9",
+    "grunt-shell": "0.1.4",
+    "grunt": "0.3.17",
+    "testem": "0.2.70"
+  },
+  "scripts": {
+    "start": "node bin/server",
+    "dev": "node bin/dev",
+    "build": "grunt build --verbose",
+    "test": "grunt test --verbose"
+  }
+}

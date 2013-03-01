@@ -1,0 +1,8 @@
+{
+  "name": "gazebo",
+  "version": "0.1.0",
+  "main": ".app/index.html",
+  "dependencies": {
+    "requirejs": "2.0.6"
+  }
+}
