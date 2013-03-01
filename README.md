@@ -15,9 +15,9 @@ the readme assumes that you have NPM and Bower installed.
 * `prod` - this is where stuff goes post build
 * `server` - the actual web server
 * `tests` - mocha / chai based unit tests
-
 * `grunt.js`  - [grunt.js](http://gruntjs.com "grunt.js") grunt file ( look out for the watch and build task )
 * `testem.yml` - [testem](https://github.com/airportyh/testem "Testem") control file
+* `component.json` -  [bower](https://github.com/twitter/bower "bower") bower dependecy spec
 
 ## Usage ##
 
